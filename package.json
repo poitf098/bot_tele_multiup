@@ -1,0 +1,19 @@
+{
+    "name": "multiup-telegram-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot for uploading magnet links using MultiUp API",
+    "main": "test3.js",
+    "scripts": {
+      "start-bot": "node test3.js",
+      "start-api": "node test2.js",
+      "build": "npm run start-api && npm run start-bot"
+    },
+    "dependencies": {
+      "axios": "^1.4.0",
+      "form-data": "^4.0.0",
+      "node-telegram-bot-api": "^0.61.0",
+      "qs": "^6.11.0",
+      "unique-username-generator": "^1.0.4"
+    }
+  }
+  
